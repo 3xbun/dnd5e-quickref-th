@@ -6,7 +6,7 @@ function add_quickref_item(parent, data, type) {
     var item = document.createElement("div");
     item.className += "item itemsize"
     item.innerHTML =
-    '\
+        '\
     <div class="item-icon iconsize icon-' + icon + '"></div>\
     <div class="item-text-container text">\
         <div class="item-title">' + title + '</div>\
@@ -57,15 +57,15 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
-    fill_section(data_movement, "basic-movement", "Move");
-    fill_section(data_action, "basic-actions", "Action");
-    fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
-    fill_section(data_reaction, "basic-reactions", "Reaction");
-    fill_section(data_condition, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
-    fill_section(data_environment_light, "environment-light", "Environment");
-    fill_section(data_environment_vision, "environment-vision", "Environment");
-    fill_section(data_environment_cover, "environment-cover", "Environment");
+    fill_section(data_movement, "basic-movement", "การเคลื่อนที่");
+    fill_section(data_action, "basic-actions", "การกระทำ");
+    fill_section(data_bonusaction, "basic-bonus-actions", "การกระทำพิเศษ");
+    fill_section(data_reaction, "basic-reactions", "การตอบสนอง");
+    fill_section(data_condition, "basic-conditions", "สภาวะ");
+    fill_section(data_environment_obscurance, "environment-obscurance", "สภาพแวดล้อม");
+    fill_section(data_environment_light, "environment-light", "สภาพแวดล้อม");
+    fill_section(data_environment_vision, "environment-vision", "สภาพแวดล้อม");
+    fill_section(data_environment_cover, "environment-cover", "สภาพแวดล้อม");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
