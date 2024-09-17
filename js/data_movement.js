@@ -2,8 +2,8 @@ data_movement = [
     {
         title: "เดิน",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
+        subtitle: "ค่า: 5ft ต่อ 5ft",
+        description: "ค่าการเคลื่อนที่: 5ft ต่อการเดิน 5ft ",
         reference: "PHB, pg. 190.",
         bullets: [
             "หากคุณมีความเร็วมากกว่าหนึ่ง เช่น ความเร็วในการเดินและความเร็วในการบิน คุณสามารถสลับไปมาระหว่างความเร็วต่างๆ ระหว่างการเคลื่อนที่ของคุณ เมื่อใดก็ตามที่คุณสลับ ให้ลบระยะทางที่คุณเคลื่อนไหวไปแล้วออกจากความเร็วใหม่",
@@ -16,8 +16,8 @@ data_movement = [
     {
         title: "ปีน",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
+        subtitle: "ค่า: 10ft ต่อ 5ft",
+        description: "ค่าการเคลื่อนที่: 10ft ต่อการปีน 5ft",
         reference: "PHB, pg. 182.",
         bullets: [
             "อาจต้องมีการทดสอบความแข็งแกร่ง (กรีฑา) หากการปีนยาก"
@@ -26,8 +26,8 @@ data_movement = [
     {
         title: "ว่าย",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
+        subtitle: "ค่า: 10ft ต่อ 5ft",
+        description: "ค่าการเคลื่อนที่: 10ft ต่อการว่าย 5ft",
         reference: "PHB, pg. 182.",
         bullets: [
             "อาจต้องมีการทดสอบความแข็งแกร่ง (กรีฑา) หากการว่ายน้ำยาก"
@@ -36,8 +36,8 @@ data_movement = [
     {
         title: "ก้มตัว",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
+        subtitle: "ค่า: 0ft",
+        description: "ค่าการเคลื่อนที่: 0ft (ฟรี)",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
             "คุณสามารถล้มตัวนอนได้โดยไม่ต้องใช้ความเร็วใด ๆ ของคุณ",
@@ -48,8 +48,8 @@ data_movement = [
     {
         title: "คลาน",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
+        subtitle: "ค่า: 10ft ต่อ 5ft",
+        description: "ค่าการเคลื่อนที่: 10ft ต่อการคลาน 5ft",
         reference: "PHB, pg. 182.",
         bullets: [
 
@@ -58,8 +58,8 @@ data_movement = [
     {
         title: "ยืน",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
+        subtitle: "ค่า: ครึ่งนึงของความเร็วการเคลื่อนที่",
+        description: "ค่าการเคลื่อนที่: ครึ่งนึงของความเร็วการเคลื่อนที่ของคุณ",
         reference: "PHB, pg. 190-191.",
         bullets: [
             "คุณไม่สามารถลุกขึ้นได้หากคุณไม่มีความเร็วพอหรือความเร็วของคุณเป็น 0"
@@ -68,8 +68,8 @@ data_movement = [
     {
         title: "กระโดดสูง",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "ค่า: 5ft ต่อ 5ft",
+        description: "ค่าการเคลื่อนที่: 5ft ต่อการกระโดด 5ft",
 
         reference: "PHB, pg. 182.",
         bullets: [
@@ -82,8 +82,8 @@ data_movement = [
     {
         title: "กระโดดไกล",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "ค่า: 5ft ต่อ 5ft",
+        description: "ค่าการเคลื่อนที่: 5ft ต่อการกระโดด 5ft",
         reference: "PHB, pg. 182.",
         bullets: [
             "คุณกระโดดได้เป็นระยะทางเท่ากับ <b>คะแนนความแข็งแกร่งของคุณ</b> หากคุณเคลื่อนที่อย่างน้อย 10 ฟุตก่อนการกระโดด",
@@ -95,8 +95,8 @@ data_movement = [
     {
         title: "อิมโพรไวส์",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "การเคลื่อนไหวที่ไม่ได้ระบุไว้",
+        description: "ทำการเคลื่อนไหวตามจินตนาการของคุณ",
         bullets: [
             "เมื่อคุณอธิบายการเคลื่อนที่ที่ไม่ระบุในกฎ DM จะบอกคุณว่าเป็นไปได้หรือไม่ และหากจำเป็นจะให้คุณทำการทดสอบเพื่อดูว่าคุณจะสำเร็จหรือไม่"
         ]
@@ -104,7 +104,7 @@ data_movement = [
     {
         title: "ภูมิประเทศที่ยากลำบาก",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
+        subtitle: "การปรับค่า: +5ft ต่อ 5ft",
         reference: "PHB, pg. 182.",
         description: "การเคลื่อนที่ในพื้นที่ยากลำบากต้องใช้การเคลื่อนที่เพิ่มขึ้น 5ft ต่อ 5ft",
         bullets: [
@@ -113,7 +113,7 @@ data_movement = [
     {
         title: "จับเคลื่อนที่",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
+        subtitle: "การปรับค่า: ค่าความเร็วเหลือครึ่งเดียว",
         description: "ลากหรือพาสิ่งมีชีวิตที่ถูกจับติดตามไปกับคุณ",
         reference: "PHB, pg. 195.",
         bullets: [
