@@ -65,7 +65,7 @@ data_action = [
     {
         title: "ถอย",
         icon: "journey",
-        subtitle: "ป้องกันการโจมตีโอกาส",
+        subtitle: "ป้องกันการฉายโอกาสโจมตี",
         description: "การเคลื่อนที่ของคุณจะไม่ก่อให้เกิดการโจมตีโอกาสในเทิร์นนี้",
         reference: "PHB, หน้า 192.",
         bullets: [
@@ -83,7 +83,7 @@ data_action = [
         ]
     },
     {
-        title: "หนีจากการจับ",
+        title: "หลบหนี",
         icon: "manacles",
         subtitle: "หลุดจากการจับ",
         description: "หลุดจากการจับ",
