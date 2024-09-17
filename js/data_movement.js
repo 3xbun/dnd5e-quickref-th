@@ -1,6 +1,6 @@
 data_movement = [
     {
-        title: "Move",
+        title: "เดิน",
         icon: "run",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft moved",
@@ -14,7 +14,7 @@ data_movement = [
         ]
     },
     {
-        title: "Climb",
+        title: "ปีน",
         icon: "crags",
         subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft climbed",
@@ -24,7 +24,7 @@ data_movement = [
         ]
     },
     {
-        title: "Swim",
+        title: "ว่าย",
         icon: "at-sea",
         subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft swum",
@@ -34,7 +34,7 @@ data_movement = [
         ]
     },
     {
-        title: "Drop prone",
+        title: "ก้มตัว",
         icon: "falling",
         subtitle: "Cost: 0ft",
         description: "Movement cost: 0ft (free)",
@@ -46,7 +46,7 @@ data_movement = [
         ]
     },
     {
-        title: "Crawl",
+        title: "คลาน",
         icon: "crawl",
         subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft crawled",
@@ -56,7 +56,7 @@ data_movement = [
         ]
     },
     {
-        title: "Stand up",
+        title: "ยืน",
         icon: "strong",
         subtitle: "Cost: half movement speed",
         description: "Movement cost: half of your speed",
@@ -66,7 +66,7 @@ data_movement = [
         ]
     },
     {
-        title: "High jump",
+        title: "กระโดดสูง",
         icon: "wingfoot",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
@@ -80,7 +80,7 @@ data_movement = [
         ]
     },
     {
-        title: "Long jump",
+        title: "กระโดดไกล",
         icon: "wingfoot",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
@@ -93,7 +93,7 @@ data_movement = [
         ]
     },
     {
-        title: "Improvise",
+        title: "อิมโพรไวส์",
         icon: "juggler",
         subtitle: "Any stunt not on this list",
         description: "Perform any movement or stunt you can imagine",
@@ -102,7 +102,7 @@ data_movement = [
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "ภูมิประเทศที่ยากลำบาก",
         icon: "stone-pile",
         subtitle: "Cost modifier: +5ft per 5ft",
         reference: "PHB, pg. 182.",
@@ -111,7 +111,7 @@ data_movement = [
         ]
     },
     {
-        title: "Grapple move",
+        title: "จับเคลื่อนที่",
         icon: "grab",
         subtitle: "Modifier: speed halved",
         description: "ลากหรือพาสิ่งมีชีวิตที่ถูกจับติดตามไปกับคุณ",
