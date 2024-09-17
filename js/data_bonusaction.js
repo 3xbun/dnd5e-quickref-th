@@ -1,36 +1,35 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "โจมตีมือรอง",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "ใช้ร่วมกับการกระทำโจมตี",
+        description: "โจมตีด้วยมือรองของคุณ",
+        reference: "PHB, หน้า 192, 194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "ใช้ได้เฉพาะเมื่อคุณใช้การกระทำ <i>โจมตี</i> และโจมตีด้วยอาวุธระยะประชิดเบาที่คุณถือในมือข้างหนึ่ง",
+            "ทำการโจมตีครั้งเดียวด้วยอาวุธระยะประชิดเบาอีกอันที่คุณถือในมืออีกข้าง",
+            "คุณจะไม่เพิ่มตัวปรับความสามารถของคุณไปยังความเสียหายจากการโจมตีโบนัส ยกเว้นว่าตัวปรับนั้นเป็นลบ",
+            "หากอาวุธใดมีคุณสมบัติขว้าง คุณสามารถขว้างอาวุธแทนที่จะโจมตีระยะประชิดด้วยมัน"
         ]
     },
     {
-        title: "Cast a spell",
+        title: "ร่ายเวท",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
-        reference: "PHB, pg. 192.",
+        subtitle: "เวลาร่าย 1 การกระทำโบนัส",
+        description: "ร่ายเวทที่มีเวลาร่าย 1 การกระทำโบนัส",
+        reference: "PHB, หน้า 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "คุณไม่สามารถร่ายเวทด้วยการกระทำของคุณและเวทอื่นที่แตกต่างกันด้วยการกระทำโบนัสของคุณในเทิร์นเดียวกัน ยกเว้นว่าการกระทำนั้นใช้ในการร่ายแคนทริป",
+            "สำหรับรายละเอียดเพิ่มเติม ดูที่การกระทำ <i>ร่ายเวท</i>"
         ]
     },
     {
-        title: "Use class feature",
+        title: "ใช้คุณสมบัติคลาส",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "คุณสมบัติบางอย่างใช้การกระทำโบนัส",
+        description: "ใช้คุณสมบัติของเผ่าพันธุ์หรือคลาสที่ใช้การกระทำโบนัส",
+        reference: "ดูที่หน้าคลาสสำหรับข้อมูลเพิ่มเติม",
         bullets: [
-
         ]
     }
 ]

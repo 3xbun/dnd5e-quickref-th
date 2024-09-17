@@ -1,36 +1,36 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "การโจมตีโอกาส",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
-        reference: "PHB, pg. 195.",
+        subtitle: "ศัตรูออกจากระยะโจมตีของคุณ",
+        description: "คุณไม่สามารถเคลื่อนไหวผ่านศัตรูได้อย่างปลอดภัยโดยไม่ทำให้ตัวเองตกอยู่ในอันตราย",
+        reference: "PHB, หน้า 195.",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "เงื่อนไข: สิ่งมีชีวิตศัตรูที่คุณมองเห็นออกจากระยะโจมตีของคุณ.",
+            "ทำการโจมตีระยะประชิดหนึ่งครั้งต่อสิ่งมีชีวิตที่ก่อเหตุ.",
+            "การโจมตีจะขัดขวางการเคลื่อนไหวของสิ่งมีชีวิตที่ก่อเหตุ ซึ่งเกิดขึ้นก่อนที่สิ่งมีชีวิตนั้นจะออกจากระยะโจมตีของคุณ.",
+            "สิ่งมีชีวิตจะไม่ก่อให้เกิดการโจมตีโอกาสเมื่อมันเทเลพอร์ต หรือเมื่อมีคนหรือสิ่งใดเคลื่อนย้ายมันโดยไม่ใช้การเคลื่อนไหว การกระทำ หรือการตอบสนอง."
         ]
     },
     {
-        title: "Readied action",
+        title: "การกระทำที่เตรียมไว้",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
-        reference: "PHB, pg. 193.",
+        subtitle: "เป็นส่วนหนึ่งของการเตรียมพร้อม",
+        description: "ทำการตอบสนองตามที่ระบุไว้ในการเตรียมพร้อมของคุณ",
+        reference: "PHB, หน้า 193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "เงื่อนไข: ระบุไว้ในการกระทำ <i>เตรียมพร้อม</i> ของคุณ."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "ร่ายเวท",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
-        reference: "PHB, pg. 192.",
+        subtitle: "ร่ายเวทที่ใช้เวลา 1 การตอบสนอง",
+        description: "ร่ายเวทที่มีเวลาร่ายเป็น 1 การตอบสนอง",
+        reference: "PHB, หน้า 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "เงื่อนไข: ระบุโดยเวทมนตร์.",
+            "สำหรับรายละเอียดเพิ่มเติม, ดูการกระทำ <i>ร่ายเวท</i>."
         ]
     }
 ]

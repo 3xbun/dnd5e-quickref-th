@@ -1,199 +1,198 @@
 data_action = [
     {
-        title: "Attack",
+        title: "โจมตี",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "โจมตีระยะประชิดหรือระยะไกล",
+        description: "โจมตีระยะประชิดหรือระยะไกลด้วยอาวุธของคุณ",
+        reference: "PHB, หน้า 192, 194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "คุณสมบัติบางอย่าง เช่น คุณสมบัติ <i>โจมตีเพิ่มเติม</i> ของนักสู้ อนุญาตให้คุณทำการโจมตีมากกว่าหนึ่งครั้งในการใช้การกระทำนี้ การโจมตีแต่ละครั้งนี้ถือว่าเป็นการทอยแยกและอาจโจมตีเป้าหมายที่แตกต่างกันได้ คุณสามารถเคลื่อนที่ระหว่างการโจมตีเหล่านี้ได้",
+            "เมื่อคุณโจมตีด้วยอาวุธระยะประชิดเบา คุณสามารถใช้การกระทำโบนัสเพื่อโจมตีด้วยมืออีกข้าง (ดูที่การโจมตี <i>มือรอง</i> เป็นการกระทำโบนัส)",
+            "คุณสามารถแทนที่การโจมตีระยะประชิดหนึ่งครั้งด้วยการ <i>กด</i> หรือ <i>ดัน</i>",
+            "เงื่อนไขบางประการให้ความได้เปรียบในการโจมตี: การโจมตีเป้าหมายที่ถูกทำให้ตาบอด, อัมพาต, กลายเป็นหิน, ถูกตรึง, มึนงง, หรือหมดสติ; การโจมตีระยะประชิดต่อเป้าหมายที่ล้มลง; การโจมตีโดยผู้โจมตีที่ล่องหนหรือซ่อนอยู่",
+            "เงื่อนไขบางประการให้ความเสียเปรียบในการโจมตี: การโจมตีเป้าหมายที่ล่องหนหรือซ่อนตัว; การโจมตีระยะไกลต่อเป้าหมายที่ล้มลง; การโจมตีโดยผู้โจมตีที่ถูกทำให้ตาบอด, หวาดกลัว, ถูกวางยาพิษ, หรือถูกตรึง"
         ]
     },
     {
-        title: "Grapple",
+        title: "จับ",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
-        reference: "PHB, pg. 195.",
+        subtitle: "การโจมตีพิเศษระยะประชิด",
+        description: "พยายามจับหรือปล้ำกับสิ่งมีชีวิต",
+        reference: "PHB, หน้า 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "คุณสามารถใช้การกระทำ <i>โจมตี</i> เพื่อทำการโจมตีพิเศษระยะประชิด คือ การจับ หากคุณสามารถทำการโจมตีหลายครั้งด้วยการกระทำโจมตี การโจมตีนี้จะแทนที่หนึ่งในนั้น",
+            "เป้าหมายของการจับของคุณต้องมีขนาดไม่เกินกว่าคุณหนึ่งขนาด และต้องอยู่ในระยะที่คุณเอื้อมถึง",
+            "โดยใช้มือที่ว่างอย่างน้อยหนึ่งมือ คุณพยายามจับเป้าหมายโดยทำการทดสอบการจับ คือ การทดสอบความแข็งแกร่ง (กรีฑา) ซึ่งแข่งขันกับการทดสอบความแข็งแกร่ง (กรีฑา) หรือความคล่องแคล่ว (กายกรรม) ของเป้าหมาย (เป้าหมายเลือกความสามารถที่จะใช้)",
+            "หากคุณสำเร็จ คุณจะทำให้เป้าหมายอยู่ในสถานะถูกจับ (ความเร็วของมันจะกลายเป็น 0)"
         ]
     },
     {
-        title: "Shove",
+        title: "ผลัก",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195.",
+        subtitle: "การโจมตีพิเศษระยะประชิด",
+        description: "ผลักสิ่งมีชีวิต เพื่อทำให้ล้มลงหรือลดระยะห่างจากคุณ",
+        reference: "PHB, หน้า 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+            "โดยการใช้การกระทำ <i>โจมตี</i> คุณสามารถทำการโจมตีพิเศษระยะประชิดเพื่อผลักสิ่งมีชีวิต หากคุณสามารถทำการโจมตีหลายครั้งด้วยการกระทำโจมตี การโจมตีนี้จะแทนที่หนึ่งในนั้น",
+            "เป้าหมายของการผลักของคุณต้องมีขนาดไม่เกินกว่าคุณหนึ่งขนาด และต้องอยู่ในระยะที่คุณเอื้อมถึง",
+            "คุณทำการทดสอบความแข็งแกร่ง (กรีฑา) แข่งขันกับการทดสอบความแข็งแกร่ง (กรีฑา) หรือความคล่องแคล่ว (กายกรรม) ของเป้าหมาย (เป้าหมายเลือกความสามารถที่จะใช้)",
+            "หากคุณชนะการทดสอบ คุณจะทำให้เป้าหมายล้มลงหรือลดระยะห่างจากคุณ 5 ฟุต"
         ]
     },
     {
-        title: "Cast a spell",
+        title: "ร่ายเวท",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
-        reference: "PHB, pg. 192.",
+        subtitle: "เวลาร่าย 1 การกระทำ",
+        description: "ร่ายเวทที่มีเวลาร่าย 1 การกระทำ",
+        reference: "PHB, หน้า 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "คุณไม่สามารถร่ายเวทด้วยการกระทำของคุณและเวทอื่นที่แตกต่างด้วยการกระทำโบนัสของคุณในเทิร์นเดียวกัน ยกเว้นว่าการกระทำถูกใช้เพื่อร่ายคาถาแคนทริป",
+            "เป้าหมายของเวทต้องอยู่ในระยะของเวทนั้น ในการเลือกเป้าหมาย คุณต้องมีเส้นทางที่ชัดเจนไปยังเป้าหมาย ดังนั้นเป้าหมายไม่สามารถอยู่หลังกำบังทั้งหมดได้",
+            "เวทที่มีส่วนประกอบที่เป็นวัตถุจะไม่บริโภควัตถุเหล่านั้นเว้นแต่จะระบุไว้อย่างชัดเจน หากไม่มีการระบุราคาของวัตถุ คุณสามารถสันนิษฐานได้ว่าราคานั้นน้อยนิดและสามารถหาได้จากกระเป๋าส่วนประกอบ",
+            "เวทบางอย่างต้องการให้คุณรักษาสมาธิเพื่อให้เวทยังคงมีผลอยู่ หากคุณเสียสมาธิ เวทดังกล่าวจะสิ้นสุดลง คุณจะเสียสมาธิในการร่ายเวทหากคุณร่ายเวทอีกครั้งที่ต้องใช้สมาธิ หรือเมื่อคุณถูกทำให้หมดสติ ทุกครั้งที่คุณได้รับความเสียหาย คุณต้องทำการทดสอบการเซฟความทนทานเพื่อรักษาสมาธิของคุณ ค่า DC คือ 10 หรือครึ่งหนึ่งของความเสียหายที่คุณได้รับ แล้วแต่จำนวนใดจะสูงกว่า"
         ]
     },
     {
-        title: "Dash",
+        title: "วิ่ง",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
-        reference: "PHB, pg. 192.",
+        subtitle: "เพิ่มความเร็วในการเคลื่อนที่เป็นสองเท่า",
+        description: "เพิ่มการเคลื่อนที่เพิ่มเติมสำหรับเทิร์นนี้",
+        reference: "PHB, หน้า 192.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "การเพิ่มจะเท่ากับความเร็วของคุณ หลังจากการใช้ตัวปรับใดๆ"
         ]
     },
     {
-        title: "Disengage",
+        title: "ถอย",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
-        reference: "PHB, pg. 192.",
+        subtitle: "ป้องกันการโจมตีโอกาส",
+        description: "การเคลื่อนที่ของคุณจะไม่ก่อให้เกิดการโจมตีโอกาสในเทิร์นนี้",
+        reference: "PHB, หน้า 192.",
         bullets: [
         ]
     },
     {
-        title: "Dodge",
+        title: "หลบหลีก",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
-        reference: "PHB, pg. 192.",
+        subtitle: "เพิ่มการป้องกัน",
+        description: "มุ่งเน้นการหลบเลี่ยงการโจมตีทั้งหมด",
+        reference: "PHB, หน้า 192.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "จนถึงเริ่มต้นเทิร์นถัดไปของคุณ การทอยโจมตีใดๆ ที่โจมตีคุณจะเสียเปรียบหากคุณสามารถเห็นผู้โจมตี และคุณจะทอยการเซฟความคล่องแคล่วด้วยความได้เปรียบ",
+            "คุณจะสูญเสียประโยชน์นี้หากคุณถูกทำให้ <i>หมดสติ</i> หรือหากความเร็วของคุณลดลงเหลือ 0"
         ]
     },
     {
-        title: "Escape",
+        title: "หนีจากการจับ",
         icon: "manacles",
-        subtitle: "Escape a grapple",
-        description: "Escape a grapple",
-        reference: "PHB, pg. 195.",
+        subtitle: "หลุดจากการจับ",
+        description: "หลุดจากการจับ",
+        reference: "PHB, หน้า 195.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
-            "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
+            "เพื่อหนีจากการจับ คุณต้องทำสำเร็จในการทดสอบความแข็งแกร่ง (กรีฑา) หรือความคล่องแคล่ว (กายกรรม) ที่แข่งขันกับการทดสอบความแข็งแกร่ง (กรีฑา) ของผู้จับ",
+            "การหนีจากเงื่อนไขอื่นๆ ที่ตรึงคุณ (เช่น กุญแจมือ) อาจต้องใช้การทดสอบความคล่องแคล่วหรือความแข็งแกร่ง ตามที่ระบุโดยเงื่อนไขนั้น"
         ]
     },
     {
-        title: "Help",
+        title: "ช่วยเหลือ",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
-        reference: "PHB, pg. 192.",
+        subtitle: "มอบความได้เปรียบให้แก่พันธมิตร",
+        description: "มอบความได้เปรียบให้พันธมิตรในการตรวจสอบความสามารถหรือการโจมตี",
+        reference: "PHB, หน้า 192.",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "เป้าหมายจะได้รับความได้เปรียบในการตรวจสอบความสามารถครั้งถัดไปที่มันทำเพื่อทำงานที่คุณช่วยเหลือ",
+            "อีกทางหนึ่ง เป้าหมายจะได้รับความได้เปรียบในการโจมตีครั้งถัดไปต่อสิ่งมีชีวิตที่อยู่ในระยะ 5 ฟุตจากคุณ",
+            "ความได้เปรียบจะคงอยู่จนถึงเริ่มต้นเทิร์นถัดไปของคุณ"
         ]
     },
     {
-        title: "Use Object",
+        title: "ใช้วัตถุ",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
-        reference: "PHB, pg. 193.",
+        subtitle: "โต้ตอบ, ใช้ความสามารถพิเศษของวัตถุ",
+        description: "โต้ตอบกับวัตถุที่สองหรือใช้ความสามารถพิเศษของวัตถุ",
+        reference: "PHB, หน้า 193.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
+            "คุณสามารถโต้ตอบกับวัตถุหนึ่งอย่างฟรีในระหว่างเทิร์นของคุณ (เช่น การดึงอาวุธหรือเปิดประตู) หากคุณต้องการโต้ตอบกับวัตถุที่สอง ใช้การกระทำนี้",
+            "เมื่อวัตถุต้องการการกระทำของคุณในการใช้งาน คุณก็จะใช้การกระทำนี้เช่นกัน"
         ]
     },
     {
-        title: "Use shield",
+        title: "ใช้โล่",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
-        reference: "PHB, pgs. 144-146.",
+        subtitle: "ติดตั้งหรือถอดโล่",
+        description: "ติดตั้งหรือถอดโล่",
+        reference: "PHB, หน้า 144-146.",
         bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "การติดตั้งหรือถอดโล่ใช้การกระทำเสมอ",
+            "เกราะจะใช้เวลาหลายนาทีในการติดตั้งหรือถอด"
         ]
     },
     {
-        title: "Hide",
+        title: "ซ่อน",
         icon: "hood",
-        subtitle: "",
-        description: "Attempt to hide",
-        reference: "PHB, pg. 192.",
+        subtitle: "พยายามซ่อนตัว",
+        description: "พยายามซ่อนตัว",
+        reference: "PHB, หน้า 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "คุณไม่สามารถซ่อนจากสิ่งมีชีวิตที่มองเห็นคุณได้ คุณต้องมีที่กำบังทั้งหมด อยู่ในพื้นที่ที่มืดมาก หายตัวไป หรือปิดกั้นการมองเห็นของศัตรูอย่างอื่น",
+            "หากคุณทำให้เกิดเสียง (เช่นตะโกนเตือนหรือทำแจกันล้ม) คุณจะเปิดเผยตำแหน่งของคุณ",
+            "เมื่อคุณพยายามซ่อน ให้ทำการทดสอบความคล่องแคล่ว (ซ่อนตัว) และจดผลลัพธ์ จนกว่าคุณจะถูกค้นพบหรือต้องหยุดซ่อน การทดสอบนี้จะถูกแข่งขันกับการทดสอบการสังเกต (การรับรู้) ของสิ่งมีชีวิตใดๆ ที่พยายามค้นหาสัญญาณการปรากฏตัวของคุณ",
+            "สิ่งมีชีวิตจะสังเกตเห็นคุณแม้ว่ามันจะไม่ได้ค้นหา ยกเว้นว่าการทดสอบซ่อนตัวของคุณสูงกว่าการรับรู้เชิงพาสซีฟของมัน",
+            "นอกการต่อสู้ คุณยังสามารถใช้การทดสอบความคล่องแคล่ว (ซ่อนตัว) เพื่อทำเช่น การซ่อนตัวจากศัตรู เดินลัดผ่านยาม หลบหนีโดยไม่ถูกสังเกต หรือย่องเข้าใกล้ใครบางคนโดยไม่ถูกเห็นหรือได้ยิน"
         ]
     },
     {
-        title: "Search",
+        title: "ค้นหา",
         icon: "magnifying-glass",
-        subtitle: "",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
+        subtitle: "ค้นหาอะไรบางอย่าง",
+        description: "ทุ่มเทความสนใจเพื่อค้นหาบางอย่าง",
+        reference: "PHB, หน้า 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "ขึ้นอยู่กับลักษณะของการค้นหาของคุณ DM อาจให้คุณทำการทดสอบการรับรู้ (ปัญญา) หรือการสืบสวน (ปัญญา)"
         ]
     },
     {
-        title: "Ready",
+        title: "เตรียมพร้อม",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
-        reference: "PHB, pg. 193.",
+        subtitle: "เลือกสิ่งที่เป็นตัวกระตุ้นและการตอบสนอง",
+        description: "เลือกเหตุการณ์ที่มองเห็นได้เป็นตัวกระตุ้นและตอบสนองต่อสิ่งนั้น",
+        reference: "PHB, หน้า 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "ก่อนอื่น คุณต้องตัดสินใจว่าเหตุการณ์ใดจะเป็นตัวกระตุ้นการตอบสนองของคุณ",
+            "จากนั้นคุณเลือกการกระทำที่จะทำเพื่อตอบสนองต่อเหตุการณ์นั้น หรือเลือกที่จะเคลื่อนที่เท่ากับความเร็วของคุณเพื่อตอบสนองต่อเหตุการณ์นั้น",
+            "เมื่อเหตุการณ์เกิดขึ้น คุณสามารถเลือกที่จะใช้การตอบสนองของคุณทันทีหลังจากเหตุการณ์สิ้นสุดลงหรือเพิกเฉยต่อเหตุการณ์นั้น",
+            "เมื่อคุณเตรียมพร้อมเพื่อร่ายเวท คุณจะร่ายเวทตามปกติแต่ค้างพลังไว้ ซึ่งคุณจะปล่อยด้วยการตอบสนองเมื่อเหตุการณ์นั้นเกิดขึ้น เวทที่จะถูกเตรียมพร้อมต้องมีเวลาร่าย 1 การกระทำ และการคงพลังเวทไว้ต้องใช้สมาธิ"
         ]
     },
     {
-        title: "Use class feature",
+        title: "ใช้คุณสมบัติคลาส",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
+        subtitle: "คุณสมบัติบางอย่างใช้การกระทำ",
+        description: "ใช้คุณสมบัติของคลาสหรือเผ่าพันธุ์ที่ใช้การกระทำ",
+        reference: "ดูที่หน้าคลาสสำหรับข้อมูลเพิ่มเติม",
         bullets: [
-
         ]
     },
     {
-        title: "Stabilize a creature",
+        title: "รักษาความเสถียรสิ่งมีชีวิต",
         icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
-        reference: "PHB, pg. 197.",
+        subtitle: "ช่วยชีวิตสิ่งมีชีวิตที่กำลังจะตาย",
+        description: "หยุดสิ่งมีชีวิตที่กำลังจะตายจากการทอยเซฟความตาย",
+        reference: "PHB, หน้า 197.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "ทำการทดสอบการรักษา (ปัญญา) ด้วยค่า DC 10",
+            "หากสำเร็จ สิ่งมีชีวิตนั้นจะมีสถานะเสถียรและไม่ต้องทำการทอยเซฟความตายอีกต่อไป",
+            "สิ่งมีชีวิตที่มีสถานะเสถียรจะฟื้น 1 แต้มชีวิตหลังจากผ่านไป 1d4 ชั่วโมง"
         ]
     },
     {
-        title: "Improvise",
+        title: "ด้นสด",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
-        reference: "PHB, pg. 193.",
+        subtitle: "การกระทำใดๆ ที่ไม่ได้อยู่ในรายการนี้",
+        description: "ทำการกระทำใดๆ ที่คุณจินตนาการได้",
+        reference: "PHB, หน้า 193.",
         bullets: [
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "เมื่อคุณอธิบายการกระทำที่ไม่ได้ระบุไว้ในกฎ DM จะบอกคุณว่าการกระทำนั้นเป็นไปได้หรือไม่ และจะต้องทอยลูกเต๋าประเภทใด หากต้องการ เพื่อกำหนดความสำเร็จหรือความล้มเหลว"
         ]
     }
 ]

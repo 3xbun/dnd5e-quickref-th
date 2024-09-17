@@ -6,11 +6,11 @@ data_movement = [
         description: "Movement cost: 5ft per 5ft moved",
         reference: "PHB, pg. 190.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "หากคุณมีความเร็วมากกว่าหนึ่ง เช่น ความเร็วในการเดินและความเร็วในการบิน คุณสามารถสลับไปมาระหว่างความเร็วต่างๆ ระหว่างการเคลื่อนที่ของคุณ เมื่อใดก็ตามที่คุณสลับ ให้ลบระยะทางที่คุณเคลื่อนไหวไปแล้วออกจากความเร็วใหม่",
+            "คุณสามารถเคลื่อนผ่านพื้นที่ของสิ่งมีชีวิตที่ไม่เป็นศัตรูได้",
+            "คุณสามารถเคลื่อนผ่านพื้นที่ของสิ่งมีชีวิตที่เป็นศัตรูได้ก็ต่อเมื่อสิ่งมีชีวิตนั้นมีขนาดใหญ่กว่าหรือเล็กกว่าคุณอย่างน้อยสองขนาด",
+            "พื้นที่ของสิ่งมีชีวิตอื่นเป็นพื้นที่ที่ยากสำหรับคุณ",
+            "ไม่ว่าจะเป็นมิตรหรือศัตรู คุณไม่สามารถยุติการเคลื่อนที่ของคุณในพื้นที่ของสิ่งมีชีวิตอื่นได้"
         ]
     },
     {
@@ -20,7 +20,7 @@ data_movement = [
         description: "Movement cost: 10ft per 5ft climbed",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "อาจต้องมีการทดสอบความแข็งแกร่ง (กรีฑา) หากการปีนยาก"
         ]
     },
     {
@@ -30,7 +30,7 @@ data_movement = [
         description: "Movement cost: 10ft per 5ft swum",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "อาจต้องมีการทดสอบความแข็งแกร่ง (กรีฑา) หากการว่ายน้ำยาก"
         ]
     },
     {
@@ -40,9 +40,9 @@ data_movement = [
         description: "Movement cost: 0ft (free)",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "คุณสามารถล้มตัวนอนได้โดยไม่ต้องใช้ความเร็วใด ๆ ของคุณ",
+            "การเคลื่อนที่ขณะล้มตัวนอน คุณต้องคลานหรือใช้เวทมนตร์เช่นการเคลื่อนย้าย",
+            "การล้มตัวนอนจะทำให้เกิดสถานะ <i>Prone</i> (การโจมตีระยะประชิดกับคุณได้เปรียบ, การโจมตีระยะไกลกับคุณเสียเปรียบ, การโจมตีของคุณเสียเปรียบ)"
         ]
     },
     {
@@ -62,7 +62,7 @@ data_movement = [
         description: "Movement cost: half of your speed",
         reference: "PHB, pg. 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "คุณไม่สามารถลุกขึ้นได้หากคุณไม่มีความเร็วพอหรือความเร็วของคุณเป็น 0"
         ]
     },
     {
@@ -70,13 +70,13 @@ data_movement = [
         icon: "wingfoot",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
-        
+
         reference: "PHB, pg. 182.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            "คุณกระโดดขึ้นสู่อากาศเป็นระยะทางเท่ากับ <b>3 + ตัวปรับความแข็งแกร่งของคุณ</b> หากคุณเคลื่อนที่อย่างน้อย 10 ฟุตก่อนการกระโดด",
+            "เมื่อคุณกระโดดสูงจากท่าหยุดนิ่ง คุณสามารถกระโดดได้เพียงครึ่งระยะทางนั้น",
+            "คุณสามารถยืดแขนของคุณขึ้นไปครึ่งหนึ่งของความสูงของตัวเองในระหว่างการกระโดด",
+            "ในบางสถานการณ์ DM ของคุณอาจอนุญาตให้คุณทำการทดสอบความแข็งแกร่ง (กรีฑา) เพื่อกระโดดให้สูงกว่าที่คุณทำได้ตามปกติ"
         ]
     },
     {
@@ -86,10 +86,10 @@ data_movement = [
         description: "Movement cost: 5ft per 5ft jumped",
         reference: "PHB, pg. 182.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "คุณกระโดดได้เป็นระยะทางเท่ากับ <b>คะแนนความแข็งแกร่งของคุณ</b> หากคุณเคลื่อนที่อย่างน้อย 10 ฟุตก่อนการกระโดด",
+            "เมื่อคุณกระโดดไกลจากท่าหยุดนิ่ง คุณสามารถกระโดดได้เพียงครึ่งระยะทางนั้น",
+            "อาจต้องมีการทดสอบความแข็งแกร่ง (กรีฑา) DC 10 เพื่อลอดผ่านสิ่งกีดขวางต่ำ (ไม่สูงกว่าหนึ่งในสี่ของระยะกระโดด) คุณจะชนสิ่งกีดขวางหากทดสอบไม่ผ่าน",
+            "อาจต้องมีการทดสอบความคล่องตัว (กายกรรม) DC 10 เพื่อยืนหยัดบนเท้าของคุณในพื้นที่ที่ยากลำบาก คุณจะล้มตัวนอนหากทดสอบไม่ผ่าน"
         ]
     },
     {
@@ -98,7 +98,7 @@ data_movement = [
         subtitle: "Any stunt not on this list",
         description: "Perform any movement or stunt you can imagine",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "เมื่อคุณอธิบายการเคลื่อนที่ที่ไม่ระบุในกฎ DM จะบอกคุณว่าเป็นไปได้หรือไม่ และหากจำเป็นจะให้คุณทำการทดสอบเพื่อดูว่าคุณจะสำเร็จหรือไม่"
         ]
     },
     {
@@ -106,7 +106,7 @@ data_movement = [
         icon: "stone-pile",
         subtitle: "Cost modifier: +5ft per 5ft",
         reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        description: "การเคลื่อนที่ในพื้นที่ยากลำบากต้องใช้การเคลื่อนที่เพิ่มขึ้น 5ft ต่อ 5ft",
         bullets: [
         ]
     },
@@ -114,11 +114,11 @@ data_movement = [
         title: "Grapple move",
         icon: "grab",
         subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
+        description: "ลากหรือพาสิ่งมีชีวิตที่ถูกจับติดตามไปกับคุณ",
         reference: "PHB, pg. 195.",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            "หากคุณเคลื่อนที่ขณะจับสิ่งมีชีวิตอีกตัว ความเร็วของคุณจะลดลงครึ่งหนึ่ง เว้นแต่ว่าสิ่งมีชีวิตนั้นจะมีขนาดเล็กกว่าคุณสองขนาดขึ้นไป",
+            "ดูการโจมตีเพื่อหาวิธีจับสิ่งมีชีวิต"
         ]
     }
 ]

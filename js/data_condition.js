@@ -1,200 +1,199 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "ตาบอด",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
-        reference: "PHB, pg. 290.",
+        subtitle: "คุณไม่สามารถมองเห็น",
+        description: "คุณไม่สามารถมองเห็น",
+        reference: "PHB, หน้า 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "คุณล้มเหลวในการตรวจสอบความสามารถใดๆ ที่ต้องใช้การมองเห็นโดยอัตโนมัติ",
+            "คุณเสียเปรียบในการทอยโจมตี",
+            "การทอยโจมตีต่อคุณได้เปรียบ"
         ]
     },
     {
-        title: "Charmed",
+        title: "หลงเสน่ห์",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
-        reference: "PHB, pg. 290.",
+        subtitle: "คุณถูกหลงเสน่ห์",
+        description: "คุณถูกหลงเสน่ห์โดยสิ่งมีชีวิตอื่น",
+        reference: "PHB, หน้า 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "คุณไม่สามารถโจมตีผู้ที่หลงเสน่ห์คุณหรือใช้ความสามารถหรือเวทมนตร์ที่เป็นอันตรายกับพวกเขาได้",
+            "ผู้ที่หลงเสน่ห์คุณได้เปรียบในการตรวจสอบความสามารถในการโต้ตอบทางสังคมกับคุณ"
         ]
     },
     {
-        title: "Deafened",
+        title: "หูหนวก",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
-        reference: "PHB, pg. 290.",
+        subtitle: "คุณไม่ได้ยิน",
+        description: "คุณไม่ได้ยิน",
+        reference: "PHB, หน้า 290.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "คุณล้มเหลวในการตรวจสอบความสามารถใดๆ ที่ต้องใช้การได้ยินโดยอัตโนมัติ"
         ]
     },
     {
-        title: "Exhaustion",
+        title: "ความเหนื่อยล้า",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
-        reference: "PHB, pg. 291.",
+        subtitle: "คุณเหนื่อยล้า",
+        description: "ความเหนื่อยล้าวัดได้เป็น 6 ระดับ",
+        reference: "PHB, หน้า 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
+            "<table><tr><th>ระดับ</th><th></th><th></th><th style='text-align:left'>ผลกระทบ</th></tr><tr><td>1</td><td></td><td></td><td>เสียเปรียบในการตรวจสอบความสามารถ</td></tr><tr><td>2</td><td></td><td></td><td>ความเร็วลดลงครึ่งหนึ่ง</td></tr><tr><td>3</td><td></td><td></td><td>เสียเปรียบในการทอยโจมตีและการทอยเซฟ</td></tr><tr><td>4</td><td></td><td></td><td>จุดชีวิตสูงสุดลดลงครึ่งหนึ่ง</td></tr><tr><td>5</td><td></td><td></td><td>ความเร็วลดลงเหลือ 0</td></tr><tr><td>6</td><td></td><td></td><td>ตาย</td></tr></table>",
+            "คุณได้รับผลกระทบจากระดับความเหนื่อยล้าปัจจุบันของคุณรวมถึงทุกระดับที่ต่ำกว่า",
+            "การพักระยะยาวเสร็จสิ้นจะลดระดับความเหนื่อยล้าของคุณลง 1 ระดับ หากคุณได้รับอาหารและเครื่องดื่ม",
+            "การฟื้นคืนชีพจากความตายก็ลดระดับความเหนื่อยล้าของสิ่งมีชีวิตลง 1 ระดับเช่นกัน"
         ]
     },
     {
-        title: "Frightened",
+        title: "กลัว",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
-        reference: "PHB, pg. 290.",
+        subtitle: "คุณกลัว",
+        description: "คุณกลัว",
+        reference: "PHB, หน้า 290.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "คุณเสียเปรียบในการตรวจสอบความสามารถและการทอยโจมตีขณะที่แหล่งของความกลัวอยู่ในสายตา",
+            "คุณไม่สามารถเคลื่อนที่เข้าใกล้แหล่งที่มาของความกลัวได้ตามความสมัครใจ"
         ]
     },
     {
-        title: "Grappled",
+        title: "ถูกจับยึด",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
-        reference: "PHB, pg. 290.",
+        subtitle: "คุณถูกจับยึด",
+        description: "คุณถูกจับยึด",
+        reference: "PHB, หน้า 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "ความเร็วของคุณกลายเป็น 0 และคุณไม่สามารถได้รับประโยชน์จากโบนัสใดๆ ที่เพิ่มความเร็วได้",
+            "สถานะนี้สิ้นสุดลงหากผู้จับของคุณไร้ความสามารถ",
+            "สถานะนี้ยังสิ้นสุดลงหากคุณถูกย้ายออกจากการเข้าถึงของผู้จับของคุณ"
         ]
     },
     {
-        title: "Incapacitated",
+        title: "ไร้ความสามารถ",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
-        reference: "PHB, pg. 290.",
-        bullets: [
-        ]
+        subtitle: "คุณไม่สามารถทำการกระทำหรือปฏิกิริยา",
+        description: "คุณไม่สามารถทำการกระทำหรือปฏิกิริยา",
+        reference: "PHB, หน้า 290.",
+        bullets: []
     },
     {
-        title: "Invisible",
+        title: "ล่องหน",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
-        reference: "PHB, pg. 291.",
+        subtitle: "คุณไม่สามารถมองเห็น",
+        description: "คุณไม่สามารถมองเห็นได้โดยปราศจากเวทมนตร์หรือประสาทสัมผัสพิเศษ",
+        reference: "PHB, หน้า 291.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "เพื่อการซ่อนตัว คุณถูกบดบังอย่างหนัก",
+            "คุณยังคงถูกตรวจพบได้ด้วยเสียงที่คุณสร้างหรือรอยเท้าที่คุณทิ้งไว้",
+            "คุณได้เปรียบในการทอยโจมตี",
+            "การทอยโจมตีต่อคุณเสียเปรียบ"
         ]
     },
     {
-        title: "Paralyzed",
+        title: "เป็นอัมพาต",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "คุณเป็นอัมพาต",
+        description: "คุณไม่สามารถทำอะไรได้",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "คุณไร้ความสามารถและไม่สามารถเคลื่อนไหวหรือพูดได้",
+            "การทอยโจมตีต่อคุณได้เปรียบ",
+            "การโจมตีใดๆ ที่โดนคุณเป็นการโจมตีคริติคอลหากผู้โจมตีอยู่ภายในระยะ 5 ฟุต",
+            "คุณล้มเหลวในการทอยเซฟ Strength และ Dexterity โดยอัตโนมัติ"
         ]
     },
     {
-        title: "Petrified",
+        title: "กลายเป็นหิน",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
-        reference: "PHB, pg. 291.",
+        subtitle: "คุณถูกเปลี่ยนเป็นหิน",
+        description: "คุณถูกเปลี่ยน พร้อมกับวัตถุที่คุณสวมใส่หรือถือครอง เป็นสารที่ไม่มีชีวิต (มักเป็นหิน)",
+        reference: "PHB, หน้า 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "น้ำหนักของคุณเพิ่มขึ้นสิบเท่า และคุณหยุดอายุ",
+            "คุณไร้ความสามารถ ไม่สามารถเคลื่อนไหวหรือพูดได้ และไม่รับรู้สิ่งรอบข้าง",
+            "การทอยโจมตีต่อคุณได้เปรียบ",
+            "คุณล้มเหลวในการทอยเซฟ Strength และ Dexterity โดยอัตโนมัติ",
+            "คุณมีความต้านทานต่อความเสียหายทั้งหมด",
+            "คุณภูมิต้านทานต่อพิษและโรค แต่พิษหรือโรคที่อยู่ในร่างกายจะถูกหยุดชั่วคราว"
         ]
     },
     {
-        title: "Poisoned",
+        title: "ถูกพิษ",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
-        reference: "PHB, pg. 292.",
+        subtitle: "คุณถูกพิษ",
+        description: "คุณถูกพิษ",
+        reference: "PHB, หน้า 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "คุณเสียเปรียบในการทอยโจมตีและการตรวจสอบความสามารถ"
         ]
     },
     {
-        title: "Prone",
+        title: "ล้มลง",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
-        reference: "PHB, pg. 292.",
+        subtitle: "คุณล้มลง",
+        description: "คุณล้มลง",
+        reference: "PHB, หน้า 292.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "ตัวเลือกการเคลื่อนไหวเดียวของคุณคือคลาน ยกเว้นว่าคุณลุกขึ้นยืน",
+            "คุณเสียเปรียบในการทอยโจมตี",
+            "การทอยโจมตีต่อคุณได้เปรียบหากผู้โจมตีอยู่ภายในระยะ 5 ฟุต มิฉะนั้นการทอยโจมตีจะเสียเปรียบ"
         ]
     },
     {
-        title: "Restrained",
+        title: "ถูกจำกัด",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
-        reference: "PHB, pg. 292.",
+        subtitle: "คุณถูกจำกัด",
+        description: "คุณถูกจำกัด",
+        reference: "PHB, หน้า 292.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "ความเร็วของคุณกลายเป็น 0 และคุณไม่สามารถได้รับประโยชน์จากโบนัสใดๆ ที่เพิ่มความเร็วได้",
+            "คุณเสียเปรียบในการทอยโจมตี",
+            "การทอยโจมตีต่อคุณได้เปรียบ",
+            "คุณเสียเปรียบในการทอยเซฟ Dexterity"
         ]
     },
     {
-        title: "Stunned",
+        title: "มึนงง",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
-        reference: "PHB, pg. 292.",
+        subtitle: "คุณมึนงง",
+        description: "คุณมึนงง",
+        reference: "PHB, หน้า 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "คุณไร้ความสามารถ ไม่สามารถเคลื่อนไหว และพูดได้เพียงเล็กน้อย",
+            "การทอยโจมตีต่อคุณได้เปรียบ",
+            "คุณล้มเหลวในการทอยเซฟ Strength และ Dexterity โดยอัตโนมัติ"
         ]
     },
     {
-        title: "Unconscious",
+        title: "หมดสติ",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
-        reference: "PHB, pg. 292.",
+        subtitle: "คุณหมดสติ",
+        description: "คุณหมดสติ",
+        reference: "PHB, หน้า 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "คุณไร้ความสามารถ ไม่สามารถเคลื่อนไหวหรือพูดได้ และไม่รับรู้สิ่งรอบข้าง",
+            "คุณทิ้งทุกอย่างที่ถืออยู่และล้มลง",
+            "การทอยโจมตีต่อคุณได้เปรียบ",
+            "การโจมตีใดๆ ที่โดนคุณเป็นการโจมตีคริติคอลหากผู้โจมตีอยู่ภายในระยะ 5 ฟุต",
+            "คุณล้มเหลวในการทอยเซฟ Strength และ Dexterity โดยอัตโนมัติ"
         ]
     },
     {
-        title: "Dying",
+        title: "กำลังจะตาย",
         icon: "dead-head",
-        subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
-        reference: "PHB, pg. 197.",
+        subtitle: "คุณกำลังจะตาย",
+        description: "คุณถูกลดจุดชีวิตเหลือ 0 และกำลังจะตาย",
+        reference: "PHB, หน้า 197.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
-            "If you receive any healing you immediately regain consciousness again and no longer dying.",
-            "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
-            "A 10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 counts as two failures.",
-            "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "หากคุณถูกลดจุดชีวิตเหลือ 0 จากความเสียหายที่ไม่ทำให้คุณตาย คุณจะหมดสติและกำลังจะตาย",
+            "หากคุณได้รับการรักษา คุณจะฟื้นสติทันทีและไม่กำลังจะตายอีกต่อไป",
+            "เมื่อคุณกำลังจะตาย ในช่วงเริ่มต้นของแต่ละเทิร์น คุณต้องทำการทอยเซฟความตาย ทอย d20 และไม่เพิ่มตัวปรับใดๆ",
+            "ผลทอย 10 ขึ้นไปคือสำเร็จ ต่ำกว่า 9 คือความล้มเหลว",
+            "เมื่อคุณสำเร็จครั้งที่ 3 คุณจะคงที่",
+            "เมื่อคุณล้มเหลวครั้งที่ 3 คุณจะตาย",
+            "ทอยได้ 1 นับเป็นการล้มเหลวสองครั้ง",
+            "ทอยได้ 20 ทำให้คุณฟื้น 1 จุดชีวิตทันที",
+            "คุณสามารถถูกทำให้คงที่โดยเพื่อนที่ใช้การกระทำ Stabilize และสำเร็จการตรวจสอบ Wisdom (Medicine) DC 10",
+            "เมื่อคงที่ คุณจะฟื้น 1 จุดชีวิตหลังจาก 1d4 ชั่วโมง"
         ]
     }
 ]

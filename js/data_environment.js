@@ -1,132 +1,132 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
+        title: "เบลอเล็กน้อย",
         icon: "bleeding-eye",
-        subtitle: "Disadvantage on Perception",
-        description: "Dim light, patchy fog, moderate foliage",
-        reference: "PHB, pg. 183.",
+        subtitle: "เสียเปรียบในการรับรู้",
+        description: "แสงจาง, หมอกเป็นหย่อมๆ, ใบไม้ปานกลาง",
+        reference: "PHB, หน้า 183.",
         bullets: [
-            "Creatures have <b>disadvantage on Wisdom (Perception)</b> checks that rely on sight."
+            "สิ่งมีชีวิตมี <b>เสียเปรียบในการตรวจสอบ Wisdom (Perception)</b> ที่ต้องอาศัยการมองเห็น"
         ]
     },
     {
-        title: "Heavily obscured",
+        title: "เบลอมาก",
         icon: "lightning-tear",
-        subtitle: "Effectively blind",
-        description: "Darkness, opaque fog, dense foliage",
-        reference: "PHB, pg. 183.",
+        subtitle: "มองไม่เห็นได้อย่างมีประสิทธิภาพ",
+        description: "ความมืด, หมอกทึบ, ใบไม้หนาแน่น",
+        reference: "PHB, หน้า 183.",
         bullets: [
-            "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
+            "สิ่งมีชีวิตในพื้นที่เบลอมากจะมีอาการ <b>ตาบอด</b> อย่างมีประสิทธิภาพ"
         ]
     }
 ]
 
 data_environment_light = [
     {
-        title: "Bright light",
+        title: "แสงสว่าง",
         icon: "star-pupil",
-        subtitle: "Normal vision",
-        description: "Bright light lets most creatures see normally",
-        reference: "PHB, pg. 183.",
+        subtitle: "การมองเห็นปกติ",
+        description: "แสงสว่างทำให้สิ่งมีชีวิตส่วนใหญ่เห็นได้ตามปกติ",
+        reference: "PHB, หน้า 183.",
         bullets: [
-            "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
+            "วันมืดครึ้มยังให้แสงสว่างได้ รวมถึงคบไฟ, โคมไฟ, ไฟ, และแหล่งแสงอื่นๆ ภายในรัศมีที่กำหนด"
         ]
     },
     {
-        title: "Dim light",
+        title: "แสงจาง",
         icon: "semi-closed-eye",
-        subtitle: "Lightly obscured",
-        description: "Dim light, also called shadows",
-        reference: "PHB, pg. 183.",
+        subtitle: "เบลอเล็กน้อย",
+        description: "แสงจาง หรือที่เรียกว่าหมายถึงเงา",
+        reference: "PHB, หน้า 183.",
         bullets: [
-            "Creates a <b>lightly obscured</b> area.",
-            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
-            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+            "สร้างพื้นที่ <b>เบลอเล็กน้อย</b>",
+            "พื้นที่แสงจางมักจะเป็นเขตแดนระหว่างแหล่งแสงสว่าง เช่น คบไฟ กับความมืดที่ล้อมรอบ",
+            "แสงที่อ่อนของช่วงรุ่งอรุณและพระอาทิตย์ตกดินก็นับเป็นแสงจาง การมีแสงจากพระจันทร์เต็มดวงที่สดใสอาจให้แสงจางแก่พื้นที่"
         ]
     },
     {
-        title: "Darkness",
+        title: "ความมืด",
         icon: "worried-eyes",
-        subtitle: "Heavily obscured",
-        description: "Darkness creates a heavily obscured area",
-        reference: "PHB, pg. 183.",
+        subtitle: "เบลอมาก",
+        description: "ความมืดสร้างพื้นที่เบลอมาก",
+        reference: "PHB, หน้า 183.",
         bullets: [
-            "Creates a <b>heavily obscured</b> area.",
-            "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
+            "สร้างพื้นที่ <b>เบลอมาก</b>",
+            "ตัวละครเผชิญกับความมืดในตอนกลางคืน (แม้แต่คืนที่มีแสงจันทร์), ภายในดันเจี้ยนที่ไม่ได้ให้แสงสว่าง หรือในพื้นที่ที่มีความมืดเวทมนตร์"
         ]
     }
 ]
 
 data_environment_vision = [
     {
-        title: "Blindsight",
+        title: "การมองเห็นไร้ตา",
         icon: "one-eyed",
-        subtitle: "Perceive without sight",
-        description: "Perceive your surroundings without relying on sight, within a certain radius",
-        reference: "PHB, pg. 183.",
+        subtitle: "รับรู้โดยไม่ต้องใช้การมองเห็น",
+        description: "รับรู้สภาพแวดล้อมของคุณโดยไม่ต้องพึ่งพาการมองเห็น, ภายในรัศมีที่กำหนด",
+        reference: "PHB, หน้า 183.",
         bullets: [
-            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
+            "สิ่งมีชีวิตที่ไม่มีตา เช่น เหลว หรือสิ่งมีชีวิตที่มีการตรวจจับเสียงสะท้อนหรือประสาทสัมผัสที่สูงขึ้น เช่น ค้างคาวและมังกรจริงๆ มีความรู้สึกนี้"
         ]
     },
     {
-        title: "Darkvision",
+        title: "การมองเห็นในความมืด",
         icon: "semi-closed-eye",
-        subtitle: "Limited vision in darkness",
-        description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
-        reference: "PHB, pgs. 183-184.",
+        subtitle: "มองเห็นในความมืดที่จำกัด",
+        description: "สิ่งมีชีวิตที่มีการมองเห็นในความมืดสามารถมองเห็นได้ดีขึ้นในความมืดหรือแสงน้อย, ภายในรัศมีที่กำหนด",
+        reference: "PHB, หน้า 183-184.",
         bullets: [
-            "Within a specified range, a creature with darkvision can <b>see in darkness as if the darkness were dim light</b>, so areas of darkness are only lightly obscured as far as that creature is concerned.",
-            "However, the creature can’t discern color in darkness, only shades of gray.",
-            "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision."
+            "ในระยะที่กำหนด, สิ่งมีชีวิตที่มีการมองเห็นในความมืดสามารถ <b>มองเห็นในความมืดราวกับว่าความมืดเป็นแสงจาง</b>, ดังนั้นพื้นที่ที่มืดจึงเป็นเพียงเบลอเล็กน้อยสำหรับสิ่งมีชีวิตนั้น",
+            "อย่างไรก็ตาม, สิ่งมีชีวิตไม่สามารถแยกแยะสีในความมืดได้, สามารถเห็นแต่เฉดสีเทา",
+            "สิ่งมีชีวิตหลายตัวในโลกของ D&D, โดยเฉพาะอย่างยิ่งสิ่งมีชีวิตที่อาศัยอยู่ใต้ดิน, มีการมองเห็นในความมืด"
         ]
     },
     {
-        title: "Truesight",
+        title: "การมองเห็นที่แท้จริง",
         icon: "eye-shield",
-        subtitle: "See in darkness",
-        description: "A creature with truesight can see everything in its true form, independent of the environment",
-        reference: "PHB, pg. 184.",
+        subtitle: "มองเห็นในความมืด",
+        description: "สิ่งมีชีวิตที่มีการมองเห็นที่แท้จริงสามารถเห็นทุกสิ่งในรูปแบบที่แท้จริง, ไม่ขึ้นอยู่กับสภาพแวดล้อม",
+        reference: "PHB, หน้า 184.",
         bullets: [
-            "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
-            "Furthermore, the creature can see into the Ethereal Plane."
+            "สิ่งมีชีวิตที่มีการมองเห็นที่แท้จริงสามารถ, ในระยะที่กำหนด, มองเห็นในความมืดปกติและความมืดเวทมนตร์, มองเห็นสิ่งมีชีวิตและวัตถุที่มองไม่เห็น, ตรวจจับภาพลวงตาโดยอัตโนมัติและประสบความสำเร็จในการทอยเซฟกับพวกมัน, และรับรู้รูปแบบดั้งเดิมของผู้เปลี่ยนรูปร่างหรือสิ่งมีชีวิตที่ถูกเปลี่ยนโดยเวทมนตร์",
+            "นอกจากนี้, สิ่งมีชีวิตยังสามารถมองเห็นเข้าสู่ Ethereal Plane ได้"
         ]
     }
 ]
 
 data_environment_cover = [
     {
-        title: "Half cover",
+        title: "ครึ่งหนึ่งของการป้องกัน",
         icon: "broken-shield",
-        subtitle: "Low wall, furniture, creatures",
-        description: "A target has half cover if an obstacle blocks at least half of its body",
-        reference: "PHB, pg. 196.",
+        subtitle: "กำแพงต่ำ, เฟอร์นิเจอร์, สิ่งมีชีวิต",
+        description: "เป้าหมายมีการป้องกันครึ่งหนึ่งหากอุปสรรคบังร่างกายอย่างน้อยครึ่งหนึ่ง",
+        reference: "PHB, หน้า 196.",
         bullets: [
-            "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "อุปสรรคอาจเป็นกำแพงต่ำ, เฟอร์นิเจอร์ขนาดใหญ่, ลำต้นต้นไม้แคบๆ, หรือสิ่งมีชีวิตไม่ว่าจะเป็นศัตรูหรือเพื่อน.",
+            "เป้าหมายที่มีการป้องกันครึ่งหนึ่งมี <b>โบนัส +2 ต่อ AC และการทอยเซฟ Dexterity</b>.",
+            "หากเป้าหมายอยู่หลังหลายแหล่งการป้องกัน, เพียงแค่ระดับการป้องกันที่ป้องกันได้ดีที่สุดจะนำมาใช้"
         ]
     },
     {
-        title: "Three-quarters cover",
+        title: "สามในสี่ของการป้องกัน",
         icon: "cracked-shield",
-        subtitle: "Portcullis, arrow slit",
-        description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
-        reference: "PHB, pg. 196.",
+        subtitle: "ประตูเหล็ก, ช่องลูกธนู",
+        description: "เป้าหมายมีการป้องกันสามในสี่หากประมาณสามในสี่ของมันถูกปิดโดยอุปสรรค",
+        reference: "PHB, หน้า 196.",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "อุปสรรคอาจเป็นประตูเหล็ก, ช่องลูกธนู, หรือลำต้นต้นไม้หนา.",
+            "เป้าหมายที่มีการป้องกันสามในสี่มี <b>โบนัส +5 ต่อ AC และการทอยเซฟ Dexterity</b>.",
+            "หากเป้าหมายอยู่หลังหลายแหล่งการป้องกัน, เพียงแค่ระดับการป้องกันที่ป้องกันได้ดีที่สุดจะนำมาใช้"
         ]
     },
     {
-        title: "Full cover",
+        title: "การป้องกันทั้งหมด",
         icon: "shield",
-        subtitle: "Completely concealed",
-        description: "A target has total cover if it is completely concealed by an obstacle",
-        reference: "PHB, pg. 196.",
+        subtitle: "ซ่อนตัวทั้งหมด",
+        description: "เป้าหมายมีการป้องกันทั้งหมดหากมันถูกซ่อนไว้ทั้งหมดโดยอุปสรรค",
+        reference: "PHB, หน้า 196.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "เป้าหมายที่มีการป้องกันทั้งหมด <b>ไม่สามารถถูกโจมตีโดยตรง</b> โดยการโจมตีหรือเวทมนตร์, แม้ว่าบางเวทมนตร์สามารถเข้าถึงเป้าหมายดังกล่าวโดยการรวมมันในพื้นที่ของผลกระทบ.",
+            "หากเป้าหมายอยู่หลังหลายแหล่งการป้องกัน, เพียงแค่ระดับการป้องกันที่ป้องกันได้ดีที่สุดจะนำมาใช้"
         ]
     }
 ]
